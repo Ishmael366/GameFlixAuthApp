@@ -1,0 +1,6 @@
+com/gameflix/AuthController.class
+com/gameflix/UserRepository.class
+com/gameflix/GameFlixAuthApp.class
+com/gameflix/SecurityConfig.class
+com/gameflix/UserService.class
+com/gameflix/User.class
