@@ -31,3 +31,22 @@ Body (JSON):
   "username": "testuser",  
   "password": "testpassword"  
 }
+
+---
+
+## GitHub Actions CI/CD Workflow
+
+This project includes a GitHub Actions workflow that runs automatically on every push or pull request to the `main` branch. It builds the Node.js app and Docker image for continuous integration.
+
+### Workflow File Location
+
+.github/workflows/ci.yml
+
+### Workflow Steps
+
+- Checks out the repository
+- Sets up Node.js environment
+- Installs dependencies using `npm install`
+- Builds the Docker image using the included `Dockerfile`
+
+No manual steps are required beyond pushing to GitHub. On every change to the `main` branch, the workflow will automatically run and show results in the "Actions" tab on GitHub.
